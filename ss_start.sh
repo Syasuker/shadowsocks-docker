@@ -7,4 +7,4 @@ echo ""
 echo " Please remember the password!"
 echo "========================================================================"
 
-ssserver -s $SS_SERVER_ADDR -p $SS_SERVER_PORT -k $SS_PASSWORD -m $SS_METHOD -t $SS_TIMEOUT
+ssserver -s 0.0.0.0 -p 8388 -k $SS_PASSWORD -m aes-256-cfb -t 300 &

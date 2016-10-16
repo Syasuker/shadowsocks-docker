@@ -22,5 +22,5 @@ if [ ! -f /.ssh_pw_set ]; then
   /set_ssh_pw.sh
 fi
 
-/usr/sbin/sshd -D
 /ss_start.sh
+/usr/sbin/sshd -D
